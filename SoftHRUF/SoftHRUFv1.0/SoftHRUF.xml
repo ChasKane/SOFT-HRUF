@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/sharks/Dropbox/SoftHRUFv0.9/SoftHRUF.sch</source>
+    <date>Sunday, May 29, 2016 'PMt' 01:16:12 PM</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Main Board</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SoftHRUF.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489545</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574898E1</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489904</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489921</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489943</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489974</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574899B3</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>574899E3</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489A10</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489A4C</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489A7E</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489AB5</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489AEC</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489B25</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>Kicad models:SOD-80</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57489B63</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D12-Pad1)">
+      <node ref="D12" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D11-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D10-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D10-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D14-Pad1)">
+      <node ref="D9" pin="2"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D13-Pad1)">
+      <node ref="D8" pin="2"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D11" pin="1"/>
+    </net>
+  </nets>
+</export>
