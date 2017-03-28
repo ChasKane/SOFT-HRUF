@@ -1,0 +1,75 @@
+ERC report (Wednesday, January 06, 2016 'PMt' 05:54:18 PM, Encoding UTF8 )
+
+***** Sheet /
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (142.24 mm,88.90 mm): Pin 2 (Passive) of component D6 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (128.27 mm,88.90 mm): Pin 2 (Passive) of component D5 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (146.05 mm,63.50 mm): Pin 1 (Power input) of component #PWR01 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (142.24 mm,114.30 mm): Pin 2 (Passive) of component D28 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (156.21 mm,114.30 mm): Pin 2 (Passive) of component D29 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (166.37 mm,114.30 mm): Pin 2 (Passive) of component D30 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (176.53 mm,114.30 mm): Pin 2 (Passive) of component D31 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (186.69 mm,114.30 mm): Pin 2 (Passive) of component D32 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (196.85 mm,114.30 mm): Pin 2 (Passive) of component D33 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (87.63 mm,88.90 mm): Pin 2 (Passive) of component D1 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (97.79 mm,88.90 mm): Pin 2 (Passive) of component D2 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (107.95 mm,88.90 mm): Pin 2 (Passive) of component D3 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (118.11 mm,88.90 mm): Pin 2 (Passive) of component D4 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (87.63 mm,101.60 mm): Pin 2 (Passive) of component D12 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (97.79 mm,101.60 mm): Pin 2 (Passive) of component D13 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (156.21 mm,88.90 mm): Pin 2 (Passive) of component D7 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (166.37 mm,88.90 mm): Pin 2 (Passive) of component D8 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (176.53 mm,88.90 mm): Pin 2 (Passive) of component D9 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (186.69 mm,88.90 mm): Pin 2 (Passive) of component D10 is unconnected.
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (177.80 mm,57.15 mm): Pin 1 (Power input) of component #PWR02 is not driven (Net 28).
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (196.85 mm,88.90 mm): Pin 2 (Passive) of component D11 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (142.24 mm,101.60 mm): Pin 2 (Passive) of component D17 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (156.21 mm,101.60 mm): Pin 2 (Passive) of component D18 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (166.37 mm,101.60 mm): Pin 2 (Passive) of component D19 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (176.53 mm,101.60 mm): Pin 2 (Passive) of component D20 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (186.69 mm,101.60 mm): Pin 2 (Passive) of component D21 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (196.85 mm,101.60 mm): Pin 2 (Passive) of component D22 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (107.95 mm,101.60 mm): Pin 2 (Passive) of component D14 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (118.11 mm,101.60 mm): Pin 2 (Passive) of component D15 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (128.27 mm,101.60 mm): Pin 2 (Passive) of component D16 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (87.63 mm,114.30 mm): Pin 2 (Passive) of component D23 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (97.79 mm,114.30 mm): Pin 2 (Passive) of component D24 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (107.95 mm,114.30 mm): Pin 2 (Passive) of component D25 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (118.11 mm,114.30 mm): Pin 2 (Passive) of component D26 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (128.27 mm,114.30 mm): Pin 2 (Passive) of component D27 is unconnected.
+
+ ** ERC messages: 35  Errors 0  Warnings 35
