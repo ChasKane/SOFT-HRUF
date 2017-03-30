@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Split Cordedv0.1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,11 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:aker
-LIBS:atmega32u4
-LIBS:dtsjw
-LIBS:mx1a-simple
-LIBS:oupiin_usb
 LIBS:Split Cordedv0.1-cache
 EELAYER 25 0
 EELAYER END
@@ -49,7 +45,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L USB_A P1
+L USB_A-RESCUE-Split_Cordedv0.1 P1
 U 1 1 57FED16D
 P 5250 6400
 F 0 "P1" H 5450 6200 50  0000 C CNN
@@ -1209,7 +1205,7 @@ F 3 "" H 5775 7200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ATmega32U4-AU U2
+L ATmega32U4-AU-RESCUE-Split_Cordedv0.1 U2
 U 1 1 57FED110
 P 3000 5800
 F 0 "U2" H 2100 7500 50  0000 C CNN

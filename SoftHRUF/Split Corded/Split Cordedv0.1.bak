@@ -93,7 +93,7 @@ F 3 "" H 6150 6600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6550 5350 0    60   ~ 0
-D+
+D+2
 $Comp
 L GND #PWR02
 U 1 1 58024766
@@ -1085,12 +1085,12 @@ D3
 $Comp
 L C C3
 U 1 1 5863AB8B
-P 1600 5250
-F 0 "C3" H 1625 5350 50  0000 L CNN
-F 1 "1uF" H 1625 5150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1638 5100 50  0001 C CNN
-F 3 "" H 1600 5250 50  0000 C CNN
-	1    1600 5250
+P 1450 5250
+F 0 "C3" H 1475 5350 50  0000 L CNN
+F 1 "1uF" H 1475 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1488 5100 50  0001 C CNN
+F 3 "" H 1450 5250 50  0000 C CNN
+	1    1450 5250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1107,12 +1107,12 @@ $EndComp
 $Comp
 L GND #PWR05
 U 1 1 5863B6BA
-P 1450 5350
-F 0 "#PWR05" H 1450 5100 50  0001 C CNN
-F 1 "GND" H 1450 5200 50  0000 C CNN
-F 2 "" H 1450 5350 50  0000 C CNN
-F 3 "" H 1450 5350 50  0000 C CNN
-	1    1450 5350
+P 1300 5350
+F 0 "#PWR05" H 1300 5100 50  0001 C CNN
+F 1 "GND" H 1300 5200 50  0000 C CNN
+F 2 "" H 1300 5350 50  0000 C CNN
+F 3 "" H 1300 5350 50  0000 C CNN
+	1    1300 5350
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4200 5850
@@ -1316,10 +1316,10 @@ Text Label 1500 6200 0    60   ~ 0
 XTAL1
 Text Label 1500 6400 0    60   ~ 0
 XTAL2
-Text Label 1750 5150 0    60   ~ 0
-D-
-Text Label 1750 5050 0    60   ~ 0
-D+
+Text Label 1650 5150 0    60   ~ 0
+D-3
+Text Label 1650 5050 0    60   ~ 0
+D+3
 Text Label 5100 7300 0    60   ~ 0
 RST
 Text Label 4200 4550 0    60   ~ 0
@@ -1329,15 +1329,15 @@ MOSI
 Text Label 4200 4350 0    60   ~ 0
 SCK
 Text Label 5550 6400 0    60   ~ 0
-D+
+D+1
 Text Label 5550 6500 0    60   ~ 0
-D-
+D-1
 Text Label 1650 5650 0    60   ~ 0
 RST
 Text Label 7050 5350 0    60   ~ 0
-D+
+D+3
 Text Label 4700 5350 0    60   ~ 0
-D-
+D-3
 $Comp
 L R R3
 U 1 1 58858EA6
@@ -1361,9 +1361,9 @@ F 3 "" H 4550 6650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6550 5650 0    60   ~ 0
-D+
+D+1
 Text Label 5100 5650 0    60   ~ 0
-D-
+D-1
 $Comp
 L GND #PWR011
 U 1 1 5885E0E9
@@ -1637,11 +1637,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 5350 6750 5350
 Text Label 5200 5350 0    60   ~ 0
-D-
+D-2
 Wire Wire Line
-	1750 5350 1450 5350
+	1300 5350 1750 5350
 Wire Wire Line
-	1450 5350 1450 5250
+	1300 5350 1300 5250
 $Comp
 L Switch_DPST SW41
 U 1 1 588BF382
@@ -1670,4 +1670,10 @@ Wire Wire Line
 Wire Wire Line
 	6050 4800 6050 4600
 Connection ~ 5750 4800
+Wire Wire Line
+	1600 5250 1750 5250
+Wire Wire Line
+	1650 5150 1750 5150
+Wire Wire Line
+	1650 5050 1750 5050
 $EndSCHEMATC
